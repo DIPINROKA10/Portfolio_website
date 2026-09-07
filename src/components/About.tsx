@@ -22,8 +22,13 @@ const socialLinks = [
     color: "hover:border-gray-400/40",
   },
   {
+    label: "LeetCode",
+    url: "https://leetcode.com/DIPINROKA10",
+    color: "hover:border-amber-500/40",
+  },
+  {
     label: "HackerRank",
-    url: "https://www.hackerrank.com/profile/dipinroka24",
+    url: "https://www.hackerrank.com/DIPINROKA10",
     color: "hover:border-emerald-500/40",
   },
 ];
@@ -51,12 +56,13 @@ export default function About() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-muted-foreground leading-relaxed text-base sm:text-lg">
-              I am a Bachelor of Computer Applications (BCA) student at{" "}
+              I am a BCA (AI &amp; ML) student at{" "}
               <span className="text-foreground font-medium">Alliance University, Bengaluru</span>,
-              passionate about Web Development, Artificial Intelligence, Data Science, Problem
-              Solving, and Innovation. I actively participate in hackathons, internships, and
-              technical projects to gain real-world experience and build impactful technology
-              solutions.
+              and part of <span className="text-foreground font-medium">Vision X</span>, a student
+              innovation team building AI-powered projects. I am passionate about Web Development,
+              Artificial Intelligence, Data Science, and Problem Solving. I actively participate in
+              hackathons, internships, and technical projects to build impactful technology
+              solutions. I also hold NCC &apos;B&apos; and &apos;C&apos; Certificates.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -103,7 +109,7 @@ export default function About() {
               </div>
               <h3 className="text-lg font-semibold">Dipin Roka</h3>
               <p className="text-xs text-muted-foreground mt-1">
-                BCA Student | Web Developer
+                BCA (AI & ML) Student | Vision X Member | Full Stack Builder
               </p>
             </div>
             <div className="glass-card rounded-2xl p-6 space-y-4">

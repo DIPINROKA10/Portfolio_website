@@ -7,19 +7,29 @@ import {
   GitCommit,
   Award,
   Target,
+  Shield,
+  Users,
 } from "lucide-react";
 
 const achievements = [
+  {
+    text: "Member of Vision X — student innovation team building AI-powered projects",
+    icon: Users,
+  },
   {
     text: "Active participant in regional and national-level hackathons",
     icon: Award,
   },
   {
-    text: "Built projects in Web Development, Data Science, and AI",
+    text: "NCC 'B' and 'C' Certificate holder",
+    icon: Shield,
+  },
+  {
+    text: "Built 7+ live deployed projects in AI, Web Dev, and Data Science",
     icon: Code2,
   },
   {
-    text: "Maintains active GitHub and HackerRank profiles",
+    text: "36 repositories on GitHub with active contribution graph",
     icon: GitCommit,
   },
   {

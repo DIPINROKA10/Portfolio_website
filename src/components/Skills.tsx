@@ -7,32 +7,45 @@ import {
   Database,
   GitBranch,
   Cpu,
-  Shield,
+  Brain,
 } from "lucide-react";
 
 const skillCategories = [
   {
     title: "Programming Languages",
     icon: Code2,
-    skills: ["Python", "JavaScript", "C", "SQL"],
+    skills: ["Python", "JavaScript", "Java", "C++", "HTML5", "CSS3", "SQL"],
     color: "from-purple-500/20 to-purple-600/10",
   },
   {
-    title: "Web Development",
+    title: "Frameworks & Libraries",
     icon: Globe,
-    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwind CSS"],
+    skills: ["React.js", "Flutter", "Tailwind CSS", "Firebase", "Next.js"],
     color: "from-cyan-500/20 to-cyan-600/10",
   },
   {
-    title: "Database",
+    title: "AI / ML",
+    icon: Brain,
+    skills: [
+      "Google Gemini",
+      "IBM WatsonX",
+      "Claude API",
+      "YOLOv8",
+      "MediaPipe",
+      "Machine Learning",
+    ],
+    color: "from-pink-500/20 to-pink-600/10",
+  },
+  {
+    title: "Databases",
     icon: Database,
-    skills: ["MySQL", "MongoDB"],
+    skills: ["MySQL", "MongoDB", "PostgreSQL"],
     color: "from-emerald-500/20 to-emerald-600/10",
   },
   {
     title: "Tools & Platforms",
     icon: GitBranch,
-    skills: ["Git", "GitHub", "VS Code", "Figma", "Canva"],
+    skills: ["Git", "GitHub", "VS Code", "Figma", "Linux", "Vercel"],
     color: "from-orange-500/20 to-orange-600/10",
   },
   {
@@ -41,11 +54,11 @@ const skillCategories = [
     skills: [
       "Data Structures & Algorithms",
       "Database Management Systems",
-      "Machine Learning Fundamentals",
+      "Data Science",
       "Networking & Security",
       "Probability & Statistics",
     ],
-    color: "from-pink-500/20 to-pink-600/10",
+    color: "from-indigo-500/20 to-indigo-600/10",
   },
 ];
 

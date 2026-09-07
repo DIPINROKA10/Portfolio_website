@@ -24,10 +24,11 @@ function LinkedinIcon({ size }: { size: number }) {
 }
 
 const roles = [
-  "Web Developer",
+  "Full Stack Builder",
   "AI Enthusiast",
   "Problem Solver",
   "Hackathon Participant",
+  "Vision X Member",
   "Tech Innovator",
 ];
 
@@ -110,9 +111,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
           >
-            BCA student at Alliance University, passionate about building
-            impactful technology solutions through web development, AI, and
-            innovation.
+            BCA (AI & ML) student at Alliance University, part of Vision X,
+            building AI-powered products for hackathons and production.
           </motion.p>
 
           <motion.div
