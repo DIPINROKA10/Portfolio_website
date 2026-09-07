@@ -1,14 +1,37 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Trophy, ExternalLink } from "lucide-react";
 
 const hackathons = [
   {
-    name: "Bengaluru Zonals Hackathon 2026",
+    name: "Bharatiya Antariksh Hackathon 2026 (ISRO)",
     description:
-      "Co-developed TraceRelief, an emergency disaster response platform designed to improve communication and assistance during natural disasters.",
+      "Participated as part of Team Seedhe Code — worked on detecting and characterizing subsurface ice in Lunar South Polar Regions using Chandrayaan-2 DFSAR radar and OHRC imagery with a physics-informed AI/ML framework.",
+    icon: "🚀",
+  },
+  {
+    name: "HackArena 2.0 Bangalore Zonals",
+    description:
+      "Team TraceRelief — built TraceRelief, an AI-powered disaster response platform with intelligent SOS prioritization, real-time rescue coordination, emergency heatmaps, and resource allocation.",
     icon: "🏆",
+  },
+  {
+    name: "Smart Campus Hackathon — Finalist",
+    description:
+      "Team VisionX Nexus selected as a Finalist in the Smart Campus Hackathon organized by GeeksforGeeks, South Asian University, and CSTC.",
+    icon: "🎯",
+  },
+  {
+    name: "CSTC SAU Hackathon",
+    description:
+      "Technical hackathon participation with VisionX Nexus demonstrating problem-solving and innovation skills.",
+    icon: "💡",
+  },
+  {
+    name: "Grevoro Hackathon",
+    description:
+      "Presented CarbonTrace, an AI-powered sustainability assistant that helps users understand the carbon impact of their daily choices.",
+    icon: "🌍",
   },
   {
     name: "GreenHack Sustainability Hackathon",
